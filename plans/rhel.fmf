@@ -7,3 +7,5 @@ execute:
         pwd
         echo "-> ls"
         ls -Rlah
+        echo "-> env"
+        env
