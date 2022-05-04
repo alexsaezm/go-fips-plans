@@ -1,3 +1,0 @@
-summary: Basic hello world test
-execute:
-    script: echo "Hello world!"

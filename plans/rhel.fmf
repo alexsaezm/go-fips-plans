@@ -1,0 +1,9 @@
+summary: Execute test suite
+description: |
+    Run the whole test suite
+execute:
+    script: |
+        echo "-> pwd"
+        pwd
+        echo "-> tree"
+        tree
