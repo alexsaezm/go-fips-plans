@@ -3,7 +3,7 @@ description: |
     Run the whole test suite
 prepare:
     script: |
-        dnf install go-toolset
+        dnf install -y go-toolset
         git clone $REPO_URL /tmp/$REPO_NAME
         cd /tmp/$REPO_NAME
         git fetch origin +refs/pull/*:refs/remotes/origin/pr/*
