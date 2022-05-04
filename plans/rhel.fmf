@@ -9,3 +9,7 @@ execute:
         ls -Rlah
         echo "-> env"
         env
+        echo "-> TMT_PLAN_DATA"
+        ls -lah $TMT_PLAN_DATA
+        echo "-> TMT_TEST_DATA"
+        ls -lah $TMT_TEST_DATA
