@@ -5,5 +5,5 @@ execute:
     script: |
         echo "-> pwd"
         pwd
-        echo "-> tree"
-        tree
+        echo "-> ls"
+        ls -Rlah
