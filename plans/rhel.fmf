@@ -11,9 +11,8 @@ prepare:
         git submodule update --init
 execute:
     script: |
-        echo "-> pwd"
-        pwd
+        cd /tmp/$REPO_NAME
         echo "-> ls"
         ls -Rlah
-        echo "-> env"
-        env
+        cd ./src
+        ./all.bash
