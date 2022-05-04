@@ -12,7 +12,5 @@ prepare:
 execute:
     script: |
         cd /tmp/$REPO_NAME
-        echo "-> ls"
-        ls -Rlah
         cd ./src
         ./all.bash
